@@ -1,0 +1,74 @@
+/* src/dashboard.css */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  background: linear-gradient(to right, #c6ea8d, #fe90af);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  background-color: darkslateblue;
+  border-radius: 5px;
+}
+
+.details-box {
+  margin-top: 80px; /* Adjust margin-top to account for the fixed navbar */
+  padding: 20px;
+  border: 2px solid slateblue;
+  border-radius: 20px;
+  background: #f0f8ff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+}
+
+.details-box h1 {
+  color: slateblue;
+  text-align: center;
+}
+
+.details-box p {
+  margin: 10px 0;
+}
+
+button {
+  display: block;
+  background-color: slateblue;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: darkslateblue;
+}
+p {
+  color: black;
+  text-align: left;
+}

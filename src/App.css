@@ -1,0 +1,87 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #2e3192, #1bffff);
+  font-family: Arial, sans-serif;
+}
+
+form {
+  width: 300px;
+  background: #f0f8ff;
+  border: 2px solid slateblue;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid slateblue;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 300px;
+}
+
+h1 {
+  color: slateblue;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  font-family: "Roboto";
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 3px;
+}
+button {
+  background-color: slateblue;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: darkslateblue;
+}
+
+.p {
+  margin-top: 20px;
+  color: black;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+.Link {
+  text-decoration: none;
+}
+@media (max-width: 600px) {
+  form {
+    width: 90%;
+    padding: 15px;
+  }
+
+  input {
+    max-width: 100%;
+  }
+}
+.company-logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+.company-logo:hover {
+  border-radius: 50%;
+}
